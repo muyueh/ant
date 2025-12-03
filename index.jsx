@@ -17,7 +17,7 @@ import {
   Content10DataSource,
   Content30DataSource,
   Footer00DataSource,
-} from './data.source';
+} from './data.source.jsx';
 import './less/antMotionStyle.less';
 
 let isMobile;
