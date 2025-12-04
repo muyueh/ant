@@ -2,6 +2,7 @@ const withLess = require('next-with-less');
 
 module.exports = withLess({
   reactStrictMode: true,
+  output: 'export',
   transpilePackages: [
     'antd',
     'rc-queue-anim',

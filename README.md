@@ -13,10 +13,10 @@ npm run dev
 
 ```bash
 npm run build
-npm start
+npm start # serves the static export from ./out
 ```
 
-Deploying to Vercel only needs the default settings:
+Deploying to Vercel only needs these settings:
 - Framework: **Next.js**
-- Build command: `npm run build`
-- Output directory: `.next` (also set in `vercel.json` for CI/CD consistency)
+- Build command: `npm run build` (builds and exports to `out`)
+- Output directory: `out` (configured in `vercel.json`)
