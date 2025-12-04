@@ -19,4 +19,4 @@ npm start
 Deploying to Vercel only needs the default settings:
 - Framework: **Next.js**
 - Build command: `npm run build`
-- Output directory: `.next`
+- Output directory: `.next` (also set in `vercel.json` for CI/CD consistency)
